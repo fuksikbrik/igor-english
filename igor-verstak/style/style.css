@@ -9,7 +9,7 @@ body {
     height: auto;
   }
   body .container {
-    margin: 3% 5% 0% 5%;
+    margin: 24px;
   }
   body .container header {
     display: flex;
