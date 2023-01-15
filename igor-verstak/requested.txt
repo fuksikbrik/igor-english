@@ -1,0 +1,2 @@
+format code html/scss
+create a separate directory for images

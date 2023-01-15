@@ -9,7 +9,7 @@ body{
         height: auto;
     }
     .container{
-        margin: 3% 5% 0% 5%;
+        margin: 3% 5% 0% 5%; // это от балды нужно флексом поравнять по центру а контенту задать max-width
     header{
         display: flex;
         justify-content: center;
