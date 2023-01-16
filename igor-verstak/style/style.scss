@@ -124,6 +124,22 @@ body{
                 line-height: 15px;
             }
         }
+
+        .active{
+            border: 3px solid yellow;
+            background-color: chartreuse;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
 }
 }
 
