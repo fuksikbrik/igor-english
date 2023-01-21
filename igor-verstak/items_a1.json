@@ -2,13 +2,13 @@
   "complexity": "a1",
   "words": [
     {
-      "ru" : "машина",
+      "ru" : "Машина",
       "english": "car",
       "translations": [
-        "car",
-        "cat",
-        "cap",
-        "heat"
+        "Car",
+        "Cat",
+        "Cap",
+        "Heat"
       ]
     },
     {
