@@ -17,6 +17,16 @@ cardThree.innerHTML =`<p>${jsonItem.words[0].translations[2]}</p>`;
 cardFour.innerHTML =`<p>${jsonItem.words[0].translations[3]}</p>`;
 question.innerHTML = `<p>${jsonItem.words[0].ru}</p>` 
 
+function wrongAnswer() {
+  alert('Ответ не верный!');
+  location.reload();
+}
+
+function correctAnswer(){
+  alert('Ответ верный!');
+  location.reload();
+}
+
 for(let i = 0; i < level.length; i++ ){
     level[i].addEventListener('click', function () {
         lastLevel.classList.remove('active-lvl');
@@ -41,12 +51,27 @@ for(let i = 0; i < card.length; i++ ){
 
 button.addEventListener('click', function(){
  if(cardOne.classList.contains('active')){
-    alert('Ответ верный!');
-    location. reload()
-  }else{
-    cardOne.classList.add('active');
-    alert('Ответ не верный!');
-    location. reload()
+      cardOne.classList.remove('active');
+      cardOne.classList.add('true')
+      setTimeout( correctAnswer, 1000)
+
+  }if(cardThwo.classList.contains('active')){
+      cardThwo.classList.remove('true');
+      cardThwo.classList.add('false');
+      cardOne.classList.add('true');
+      setTimeout(wrongAnswer, 1000)
+
+  }if(cardThree.classList.contains('active')){
+      cardThree.classList.remove('true');
+      cardThree.classList.add('false');
+      cardOne.classList.add('true');
+      setTimeout(wrongAnswer, 1000)
+      
+  }if(cardFour.classList.contains('active')){
+      cardFour.classList.remove('true');
+      cardFour.classList.add('false');
+      cardOne.classList.add('true');
+      setTimeout(wrongAnswer, 1000)
   }
 });
 
