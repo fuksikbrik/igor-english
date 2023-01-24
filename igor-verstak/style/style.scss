@@ -353,6 +353,38 @@ body{
                 line-height: 15px;
             }
         }
+        .false{
+            border: 5px solid #000000 !important;
+            background-color: red !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+            z-index: 1;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+        .true{
+            border: 5px solid #000000 !important;
+            background-color: green !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+            z-index: 1;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
 }
 }
 
@@ -500,6 +532,38 @@ body{
         .active{
             border: 5px solid yellow !important;
             background-color: chartreuse !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+            z-index: 1;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+        .false{
+            border: 5px solid #000000 !important;
+            background-color: red !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+            z-index: 1;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+        .true{
+            border: 5px solid #000000 !important;
+            background-color: green !important;
             display: flex;
             justify-content: center;
             align-items: center;
